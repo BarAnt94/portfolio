@@ -1,0 +1,23 @@
+body{
+    background-color:  lightslategray;
+}
+
+nav ul {
+  list-style: none;
+  display: flex; 
+  padding: 20px ;
+  margin: auto;
+  gap: 200px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  border-radius: 4px;
+}
