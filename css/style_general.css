@@ -30,15 +30,27 @@ img {
   display: block;
   margin: auto;
   margin-top: 50px;
-  max-width: 80%;
+  max-width: 50%;
   height: auto;
 }
 
 .social {
   display: inline-flex;
   margin-right: 295px;
-  width: 30%;
-  height: 30%;
+  width: 10%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.social-media {
+  text-align: center;
+  margin-top: 20px;
+}
+.form
+{
+   width: 300px;        
+  margin: 0 auto;      
+  text-align: center;   
 }
 .profil
 {
@@ -88,18 +100,14 @@ img {
   margin: 0 auto;
 }
 
-.article-image {
-  width: 30%;
-  height: auto;
-  border-radius: 8px;
-  margin-top: 20px;
+.newsletter {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
 }
-.statistique-image {
-  width: 10%;
-  height: 10%;
-  border-radius: 8px;
-  margin-top: 20px;
-}
+
 h2, h3, p{
   text-align: center;
   color: white;
