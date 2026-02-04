@@ -34,24 +34,86 @@ img {
   height: auto;
 }
 
-.social {
-  display: inline-flex;
-  margin-right: 295px;
-  width: 10%;
-  height: 10%;
-  justify-content: center;
-  align-items: center;
-}
-.social-media {
+section {
+  margin-bottom: 3rem;
   text-align: center;
-  margin-top: 20px;
 }
-.form
-{
-   width: 300px;        
+
+.form {  
   margin: 0 auto;      
   text-align: center;   
+  max-width: 300px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
 }
+
+.form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form button {
+  background-color: #0073e6;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #005bb5;
+}
+
+.social {
+  transition: transform 0.3s ease;
+}
+.social:hover {
+  transform: scale(1.1);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card-text,.description-projet,.competences-projet{
+  color: #007bff;
+}
+
+.projet {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
 .profil
 {
   width: 150px;
@@ -108,7 +170,7 @@ img {
   color: white;
 }
 
-h2, h3, p{
+h2, h1, p{
   text-align: center;
   color: white;
   font-style: bold;
