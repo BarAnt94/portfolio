@@ -57,6 +57,7 @@ section {
 
 .form input[type="text"],
 .form input[type="email"],
+.form input[type="tel"],
 .form textarea {
   width: 100%;
   padding: 10px 12px;
@@ -111,8 +112,9 @@ section {
   display: flex;
   justify-content: center; 
   align-items: center; 
+  animation-duration: 3s;
+  animation-name: slidein;
 }
-
 
 .profil
 {
@@ -175,10 +177,12 @@ h1, h2, p{
   color: white;
   font-style: bold;
 }
+
 h1,h2{
   animation-duration: 3s;
   animation-name: slidein;
 }
+
 ul li{
   list-style: none;
   text-align: center;
@@ -204,6 +208,7 @@ p{
     width: 100%;
   }
 }
+
 @font-face {
   font-family: "Citation-Regular";
   src:url(../Font/Citation-Regular.ttf);
