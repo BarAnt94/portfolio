@@ -170,10 +170,14 @@ section {
   color: white;
 }
 
-h2, h1, p{
+h1, h2, p{
   text-align: center;
   color: white;
   font-style: bold;
+}
+h1,h2{
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 ul li{
   list-style: none;
@@ -185,6 +189,20 @@ ul li{
 p{
   font-size: 18px;
   font-family: "Citation-Regular";
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 @font-face {
   font-family: "Citation-Regular";
