@@ -33,7 +33,10 @@ img {
   max-width: 50%;
   height: auto;
 }
-
+.card-img-top {
+  width: 10%;
+  height: auto;
+}
 section {
   margin-bottom: 3rem;
   text-align: center;
@@ -102,6 +105,24 @@ section {
   justify-content: center;
   text-align: center;
   margin-top: 30px;
+  margin-left: 40%;
+  width: 20%;
+  height: 50px;
+}
+
+.projet.row.g-4
+{
+  width: 50%;
+  height: 50%;
+  gap: 50px;
+  margin: auto;
+  animation-name: slide_projet;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .card-text,.description-projet,.competences-projet{
@@ -172,6 +193,10 @@ section {
   color: white;
 }
 
+a {
+  justify-content: center;
+  display: flex;
+}
 h1, h2, p{
   text-align: center;
   color: white;
@@ -206,6 +231,15 @@ p{
   to {
     margin-left: 0%;
     width: 100%;
+  }
+}
+@keyframes slide_projet {
+ from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
   }
 }
 

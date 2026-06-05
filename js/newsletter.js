@@ -1,4 +1,4 @@
-const RSS_URL = 'https://www.blogdumoderateur.com/feed/';
+const RSS_URL = 'https://www.blogdumoderateur.com/ia/feed/';
 
   fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(RSS_URL))
     .then(response => response.json())
