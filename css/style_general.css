@@ -129,6 +129,10 @@ section {
   color: #007bff;
 }
 
+.card:hover {
+  border: 10px solid #FFD700;
+}
+
 .projet {
   display: flex;
   justify-content: center; 
@@ -184,7 +188,11 @@ section {
   height: 50%;
   margin: 0 auto;
 }
-
+.c-sharp {
+  width: 2000px;
+  height: 100px;
+  margin: 0 auto;
+}
 .newsletter {
   width: 60%;
   margin: 0 auto;
